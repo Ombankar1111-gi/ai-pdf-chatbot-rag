@@ -10,6 +10,11 @@ A simple AI-powered PDF chatbot built using Python, LangChain, FAISS, HuggingFac
 The application allows users to upload PDF files and ask questions directly from the document using Retrieval-Augmented Generation (RAG).
 
 ---
+## 🌐 Live Demo
+
+🔗 https://ai-pdf-chatbot-rag-w2tmc2qdjbxlfwktvcmqre.streamlit.app/
+
+
 
 ## ✨ Features
 
