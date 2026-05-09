@@ -16,9 +16,17 @@ from langchain_groq import ChatGroq
 # Load API Key
 # =========================================
 
+import streamlit as st
+
 load_dotenv()
 
-groq_api_key = os.getenv("GROQ_API_KEY")
+try:
+
+    groq_api_key = st.secrets["GROQ_API_KEY"]
+
+except:
+
+    groq_api_key = os.getenv("GROQ_API_KEY")
 
 
 # =========================================
